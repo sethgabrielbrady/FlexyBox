@@ -23,35 +23,6 @@ body {
 }
 
 
-.posts {
-
-    /* DO NOT CHANGE THESE */
-    color: #444444;
-}
-.posts article {
-
-    /* DO NOT CHANGE THESE */
-    background-color: #dddddd;
-    border: 1px solid #444444;
-    height: 20em; /* this is just so we can see the articles since they have no content */
-}
-
-
-.sidebar {
-
-    /* DO NOT CHANGE THESE */
-    background-color: #aaaaaa;
-    color: #444444;
-}
-
-.sidebar section {
-
-
-    /* DO NOT CHANGE THESE */
-    background-color: #dddddd;
-    border: 1px solid #444444;
-    height: 10em; /* this is just so we can see the articles since they have no content */
-}
 
 
 footer {
@@ -59,6 +30,7 @@ footer {
     /* DO NOT CHANGE THESE */
     background-color: #444444;
     color: #eeeeee;
+    height:9em;
 }
 
 
@@ -92,7 +64,7 @@ justify-content: center;
 
 .posts > article {
   flex:0 1 40%;
-  margin:2em 1em 1em 2em;
+  margin:2em 1em 2.5em 2em;
   box-sizing: border-box;
 }
 
@@ -100,7 +72,7 @@ justify-content: center;
 .sidebar {
   flex:0 1 15%;/*set how much width for .post to take up in its parent?*/
   justify-content: flex-start;
-  padding:1em;
+  padding:.5em;
   display:flex;
   flex-direction:column;
 
@@ -115,6 +87,72 @@ justify-content: center;
 
 }
 
+.posts {
+
+    /* DO NOT CHANGE THESE */
+    color: #444444;
+}
+.posts article {
+
+    /* DO NOT CHANGE THESE */
+    background-color: #dddddd;
+    border: 1px solid #444444;
+    height: 20em; /* this is just so we can see the articles since they have no content */
+}
+
+
+.sidebar {
+
+    /* DO NOT CHANGE THESE */
+    background-color: #aaaaaa;
+    color: #444444;
+}
+
+.sidebar section {
+
+
+    /* DO NOT CHANGE THESE */
+    background-color: #dddddd;
+    border: 1px solid #444444;
+    height: 10em; /* this is just so we can see the articles since they have no content */
+}
+/******************header*******************/
+
+header {
+  display:flex;
+  height:12em;
+}
+header h1{
+flex-basis: 50%;
+box-sizing: border-box;
+
+}
+header nav {
+  flex-basis: 50%;
+  box-sizing: border-box;
+  display:flex;
+  justify-content: flex-end;
+  align-self:flex-end;
+  padding-bottom:1em;
+  padding-right:1em;
+
+}
+header li{
+  list-style: none;
+  display:inline;
+  align-items: flex-start;
+
+}
+
+header a {
+  text-decoration:none;
+  color:rgb(255, 255, 255);
+}
+
+
+a:visited{
+  color:rgb(255, 255, 255);
+}
 
 
 
