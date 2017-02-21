@@ -60,3 +60,71 @@ footer {
     background-color: #444444;
     color: #eeeeee;
 }
+
+
+
+
+
+
+/******************FLEX*******************/
+/*align the article parent and sidebar parent first
+
+container is parent of .posts and .sidebar
+then align articles within posts
+and sections within sidebar
+
+
+*/
+
+/******************FLEX*******************/
+
+.container {
+display:flex;
+justify-content: center;
+}
+
+.posts{
+flex:0 1 65%;/*set how much width for .post to take up in its parent?*/
+display:flex;
+flex-wrap:wrap;
+justify-content: center;
+}
+
+.posts > article {
+  flex:0 1 40%;
+  margin:2em 1em 1em 2em;
+  box-sizing: border-box;
+}
+
+
+.sidebar {
+  flex:0 1 15%;/*set how much width for .post to take up in its parent?*/
+  justify-content: flex-start;
+  padding:1em;
+  display:flex;
+  flex-direction:column;
+
+}
+
+.sidebar > section{
+  margin:2em .5em;
+
+  flex-basis: 15%;
+  padding:1em 0;
+  box-sizing: content-box;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/******************FLEX*******************/
