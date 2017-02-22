@@ -5,6 +5,9 @@ ul{margin:0;}
 
 
 
+
+
+
 body {
     /* DO NOT CHANGE THESE */
     font-family: Verdana, Arial, sans-serif;
@@ -14,65 +17,23 @@ a {
     color:#ffffff;
 }
 
+
 .hero {
-    display:flex;
-    height:12em;
-    align-items: center;
+
     /* DO NOT CHANGE THESE */
     background-color: #444444;
 }
-
 .hero h1 {
-    flex-basis: 30%;
-    margin-left:6em;
     /* DO NOT CHANGE THESE */
     color: #ffffff;
 }
 
-.hero ul {
-    list-style: none;
-}
-
-.hero li{
-    margin-right:1em;
-    display:inline;
-
-}
-
-.hero a {
-    text-decoration:none;
-}
-
-.hero nav {
-    flex-basis: 70%;
-    display:flex;
-    justify-content: flex-end;
-    align-self:flex-end;
-    margin-bottom:1em;
-}
-
-
-
-/******************MAIN AND SIDEBAR*******************/
-
-.container {
-    display:flex;
-    justify-content: center;
-}
-
-
 .posts {
-    flex:0 0 65%;
-    display:flex;
-    flex-wrap:wrap;
-    justify-content: center;
     /* DO NOT CHANGE THESE */
     color: #444444;
 }
 
 .posts article {
-    flex:0 0 40%;
-    margin:2em 1em 2.5em 2em;
     /* DO NOT CHANGE THESE */
     background-color: #dddddd;
     border: 1px solid #444444;
@@ -80,17 +41,13 @@ a {
 }
 
 .sidebar {
-    flex:0 0 15%;
-    display:flex;
-    flex-direction:column;
     /* DO NOT CHANGE THESE */
     background-color: #aaaaaa;
     color: #444444;
 }
 
 .sidebar section {
-    flex:0 0 15%;
-    margin:2em .5em;
+
     /* DO NOT CHANGE THESE */
     background-color: #dddddd;
     border: 1px solid #444444;
@@ -101,8 +58,6 @@ a {
 /******************footer*******************/
 
 
-
-
 footer {
     display:flex;
     /* DO NOT CHANGE THESE */
@@ -111,15 +66,20 @@ footer {
     height:9em;
 }
 
-footer nav {
-    flex-basis:70%;
-    align-self: center;
+
+
+
+
+
+
+
+@media screen and (min-width: 35em) {
+h1{color:blue;}
+
 }
 
-footer ul {
-    margin-left:3em;
-}
 
-footer p {
-    margin-top:2em;
+@media screen and (min-width: 70em) {
+h1{color:green;}
+
 }
