@@ -43,7 +43,7 @@ a {
 }
 
 .hero li{
-    margin:.5em 2em .5em 0;
+    margin:.5em 1em .5em 0;
     box-sizing: border-box;
 }
 .hero a {
@@ -107,6 +107,17 @@ footer p {
 
 @media screen and (min-width: 35em) {
 .hero{background-color: blue;}
+
+  .hero h1 {
+    margin-left:2em;
+  }
+  .hero nav {
+        display:flex;
+        justify-content: flex-end;
+  }
+
+
+
 
 }
 
