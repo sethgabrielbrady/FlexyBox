@@ -6,6 +6,9 @@ ul{margin:0;}
 
 
 
+
+
+
 body {
     margin:0;
     /* DO NOT CHANGE THESE */
@@ -105,22 +108,54 @@ footer p {
 
 }
 
+
 @media screen and (min-width: 35em) {
-.hero{background-color: blue;}
 
   .hero h1 {
     margin-left:2em;
   }
   .hero nav {
-        display:flex;
-        justify-content: flex-end;
+    display:flex;
+    justify-content: flex-end;
   }
 
+  .posts {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+ }
+  .posts article {
+    flex:40%;
+  }
 
+  .sidebar{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;;
+  }
 
+  .sidebar section {
+    flex:30%;
+  }
 
+  footer {
+    display:flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    align-items:center;
+  }
+  
+  footer nav {
+    flex:30%;
+    box-sizing: border-box;
+  }
+
+  footer p{
+    flex:70%;
+    box-sizing: border-box;
+  }
 }
-
 
 @media screen and (min-width: 70em) {
 .hero{background-color: green;}
