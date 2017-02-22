@@ -6,9 +6,6 @@ ul{margin:0;}
 
 
 
-
-
-
 body {
     margin:0;
     /* DO NOT CHANGE THESE */
@@ -105,7 +102,6 @@ footer p {
 footer nav,
 footer p {
     margin-left:2em;
-
 }
 
 
@@ -132,7 +128,7 @@ footer p {
   .sidebar{
     display:flex;
     flex-direction:row;
-    justify-content: space-between;;
+    justify-content: space-between;
   }
 
   .sidebar section {
@@ -142,20 +138,34 @@ footer p {
   footer {
     display:flex;
     flex-direction: row;
-    box-sizing: border-box;
     align-items:center;
+    /*justify-content: space-around;*/
+    font-size:.9em;
   }
-  
+
   footer nav {
-    flex:30%;
-    box-sizing: border-box;
+    flex:15%;
+    /*box-sizing: border-box; */
+    margin-left:1em;
+    text-align: left;
+
   }
 
   footer p{
-    flex:70%;
-    box-sizing: border-box;
+    flex:60%;
+    /*box-sizing: border-box;*/
+    margin-right:2em;
+    margin-left:0;
+    text-align:right;
+
+}
+
+  footer ul {
+    margin-left:2em;
+    padding-left:0;
   }
 }
+
 
 @media screen and (min-width: 70em) {
 .hero{background-color: green;}
