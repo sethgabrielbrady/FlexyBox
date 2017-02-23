@@ -12,7 +12,6 @@ body {
     font-family: Verdana, Arial, sans-serif;
 }
 
-
 a {
     color:#ffffff;
 }
@@ -46,13 +45,16 @@ a {
     margin:.5em 1em .5em 0;
     box-sizing: border-box;
 }
+
 .hero a {
     text-decoration:none;
 }
+
 .container {
     display:flex;
     flex-direction: column;
 }
+
 .posts {
     /* DO NOT CHANGE THESE */
     color: #444444;
@@ -109,31 +111,31 @@ footer p {
 
   .hero h1 {
     margin-left:2em;
-  }
+}
   .hero nav {
     display:flex;
     justify-content: flex-end;
-  }
+}
 
   .posts {
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
     flex-direction: row;
- }
+}
   .posts article {
     flex:40%;
-  }
+}
 
   .sidebar{
     display:flex;
     flex-direction:row;
     justify-content: space-between;
-  }
+}
 
   .sidebar section {
     flex:30%;
-  }
+}
 
   footer {
     display:flex;
@@ -141,15 +143,14 @@ footer p {
     align-items:center;
     /*justify-content: space-around;*/
     font-size:.9em;
-  }
+}
 
   footer nav {
     flex:15%;
     /*box-sizing: border-box; */
     margin-left:1em;
     text-align: left;
-
-  }
+}
 
   footer p{
     flex:60%;
@@ -170,11 +171,24 @@ footer p {
 
 
 @media screen and (min-width: 70em) {
-.hero{background-color: green; }
 
 .hero {
-  height:15em;
+    height:15em;
+    flex-direction: row;
 }
+
+.hero h1 {
+    flex:1;
+    align-self: center;
+    margin-left:6em;
+
+}
+.hero nav{
+    flex:1;
+    align-items: flex-end;
+}
+
+
 
 .container {
     justify-content: center;
@@ -221,5 +235,10 @@ footer p {
     height: 10em; /* this is just so we can see the articles since they have no content */
 }
 
-
+  footer p {
+    margin-bottom: 4em;
+  }
+  footer nav {
+    margin-left:2em;
+  }
 }
