@@ -4,14 +4,14 @@
 
 .sidebar {
     /* DO NOT CHANGE THESE */
-    background-color: #aaaaaa;
-    color: #444444;
+    background-color: $bgSidebar;
+    color: $bgColortheme;
 
       section {
-          margin:2em 1em;
+          margin:$mrg21m;
           /* DO NOT CHANGE THESE */
-          background-color: #dddddd;
-          border: 1px solid #444444;
-          height: 10em; /* this is just so we can see the articles since they have no content */
+          background-color: $bgColorPosts;
+          border: 1px solid $bgColortheme;
+          height: $sidebarSectionHeight; /* this is just so we can see the articles since they have no content */
       }
 }

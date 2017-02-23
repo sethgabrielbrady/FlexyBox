@@ -73,18 +73,15 @@ footer {
   color: #eeeeee;
   height: 9em; }
   footer nav {
-    margin-top: 1em; }
+    margin-top: 1em;
+    margin-left: 2em; }
   footer p {
-    margin-bottom: 1em; }
-
-footer nav,
-footer p {
-  margin-left: 2em; }
+    margin-bottom: 1em;
+    margin-left: 2em; }
 
 @media screen and (min-width: 35em) {
   .hero h1 {
     margin-left: 2em; }
-
   .hero nav {
     display: flex;
     justify-content: flex-end; }
@@ -94,37 +91,32 @@ footer p {
     flex-wrap: wrap;
     justify-content: center;
     flex-direction: row; }
-
-  .posts article {
-    flex: 40%; }
+    .posts article {
+      flex: 40%; }
 
   .sidebar {
     display: flex;
     flex-direction: row;
     justify-content: space-between; }
-
-  .sidebar section {
-    flex: 30%; }
+    .sidebar section {
+      flex: 30%; }
 
   footer {
     flex-direction: row;
     align-items: center;
     font-size: .9em; }
-
-  footer nav {
-    flex: 15%;
-    margin-left: 1em;
-    text-align: left; }
-
-  footer p {
-    flex: 60%;
-    margin-right: 2em;
-    margin-left: 0;
-    text-align: right; }
-
-  footer ul {
-    margin-left: 2em;
-    padding-left: 0; } }
+    footer nav {
+      flex: 15%;
+      margin-left: 1em;
+      text-align: left; }
+    footer p {
+      flex: 60%;
+      margin-right: 2em;
+      margin-left: 0;
+      text-align: right; }
+    footer ul {
+      margin-left: 2em;
+      padding-left: 0; } }
 @media screen and (min-width: 70em) {
   .hero {
     height: 15em;

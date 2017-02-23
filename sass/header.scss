@@ -4,14 +4,14 @@
     flex-wrap: wrap;
     display:flex;
     /* DO NOT CHANGE THESE */
-    background-color: #444444;
+    background-color: $bgColortheme;
     position:relative;
 
       h1 {
           margin-bottom:0;
           flex:70%;
           /* DO NOT CHANGE THESE */
-          color: #ffffff;
+          color: $headerColor;
       }
 
       nav {
