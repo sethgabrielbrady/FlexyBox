@@ -1,3 +1,7 @@
+
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+
 * resetting some browser-default styles */
 /* DO NOT CHANGE THESE */
 html,body,header,main,footer,section,aside,h1,h2,h3,h4,p{margin:0;padding:0;}
@@ -17,22 +21,33 @@ a {
 }
 
 .hero {
-    flex-direction: column;
     flex-wrap: wrap;
     display:flex;
     /* DO NOT CHANGE THESE */
     background-color: #444444;
+    position:relative;
 }
 
 .hero h1 {
     margin-bottom:0;
-    flex:1;
+    flex:70%;
     /* DO NOT CHANGE THESE */
+    color: #ffffff;
+}
+.hero i{
+    flex:30%;
+    font-size:5em;
     color: #ffffff;
 }
 
 .hero nav {
     margin:0;
+    display:none;
+    flex:100%;
+}
+
+.hero i:hover ~ nav{
+    display:block;
 }
 
 .hero ul {
@@ -41,9 +56,10 @@ a {
     padding:0;
 }
 
-.hero li{
+.hero li {
     margin:.5em 1em .5em 0;
     box-sizing: border-box;
+    font-size:1.25em;
 }
 
 .hero a {
@@ -82,7 +98,6 @@ a {
     height: 10em; /* this is just so we can see the articles since they have no content */
 }
 
-
 footer {
     display:flex;
     flex-direction: column;
@@ -108,47 +123,52 @@ footer p {
 
 @media screen and (min-width: 35em) {
 
+    .hero i {
+      display:none;
+    }
+
     .hero h1 {
       margin-left:2em;
-  }
+    }
 
     .hero nav {
+      opacity:1;
       display:flex;
       justify-content: flex-end;
-  }
-  
+    }
+
     .posts {
       display:flex;
       flex-wrap: wrap;
       justify-content: center;
       flex-direction: row;
-  }
+    }
 
     .posts article {
       flex:40%;
-  }
+    }
 
     .sidebar{
       display:flex;
       flex-direction:row;
       justify-content: space-between;
-  }
+    }
 
     .sidebar section {
       flex:30%;
-  }
+    }
 
     footer {
       flex-direction: row;
       align-items:center;
       font-size:.9em;
-  }
+    }
 
     footer nav {
       flex:15%;
       margin-left:1em;
       text-align: left;
-  }
+    }
 
     footer p{
       flex:60%;
@@ -164,8 +184,6 @@ footer p {
 }
 
 
-
-
 @media screen and (min-width: 70em) {
 
     .hero {
@@ -179,20 +197,20 @@ footer p {
     }
 
     .hero nav{
-        flex:1;
+        flex:100;
         align-items: flex-end;
     }
 
     .container {
         justify-content: center;
         flex-direction:row;
-      }
+    }
 
     .posts {
         flex:0 1 65%;
         justify-content: center;
         margin-right: 1em;
-      }
+    }
 
     .posts article {
         flex:0 1 45%;
@@ -210,10 +228,11 @@ footer p {
         flex:0 1 15%;
     }
 
-      footer p {
+    footer p {
         margin-bottom: 4em;
     }
-      footer nav {
+
+    footer nav {
         margin-left:2em;
     }
 }
