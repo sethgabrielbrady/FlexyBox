@@ -167,7 +167,59 @@ footer p {
 }
 
 
+
+
 @media screen and (min-width: 70em) {
-.hero{background-color: green;}
+.hero{background-color: green; }
+
+.hero {
+  height:15em;
+}
+
+.container {
+    justify-content: center;
+    flex-direction:row;
+  }
+
+
+.posts {
+    flex:0 1 65%;
+    display:flex;
+    justify-content: center;
+    margin-right: 1em;
+    /* DO NOT CHANGE THESE */
+    color: #444444;
+
+}
+
+.posts article {
+    flex:0 1 45%;
+    justify-content: center;
+    /* DO NOT CHANGE THESE */
+    background-color: #dddddd;
+    border: 1px solid #444444;
+    height: 20em; /* this is just so we can see the articles since they have no content */
+}
+
+.sidebar {
+    flex:0 1 20%;
+    display:flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    margin-right:1em;
+    /* DO NOT CHANGE THESE */
+    background-color: #aaaaaa;
+    color: #444444;
+}
+
+.sidebar section {
+    flex:0 1 15%;
+    margin:2em 1em;
+    /* DO NOT CHANGE THESE */
+    background-color: #dddddd;
+    border: 1px solid #444444;
+    height: 10em; /* this is just so we can see the articles since they have no content */
+}
+
 
 }
