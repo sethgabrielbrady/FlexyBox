@@ -1,0 +1,24 @@
+footer {
+    display:flex;
+    flex-direction: column;
+    /* DO NOT CHANGE THESE */
+    background-color: #444444;
+    color: #eeeeee;
+    height:9em;
+
+      nav {
+         margin-top:1em;
+     }
+
+     p {
+         margin-bottom:1em;
+     }
+
+}
+
+
+
+footer nav,
+footer p {
+    margin-left:2em;
+}

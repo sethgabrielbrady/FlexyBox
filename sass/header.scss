@@ -1,0 +1,36 @@
+
+
+.hero {
+    flex-wrap: wrap;
+    display:flex;
+    /* DO NOT CHANGE THESE */
+    background-color: #444444;
+    position:relative;
+
+      h1 {
+          margin-bottom:0;
+          flex:70%;
+          /* DO NOT CHANGE THESE */
+          color: #ffffff;
+      }
+
+      nav {
+          margin:0;
+          flex:100%;
+      }
+
+      ul {
+          display:flex;
+          list-style: none;
+          padding:0;
+      }
+      li {
+          margin:.5em 1em .5em 0;
+          box-sizing: border-box;
+          font-size:1.25em;
+        }
+        a {
+            text-decoration:none;
+        }
+
+}
