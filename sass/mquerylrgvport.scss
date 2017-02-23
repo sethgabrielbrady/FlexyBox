@@ -8,7 +8,7 @@
         margin-left:6em;
       }
       nav{
-        flex:100;
+        flex:100%;
         align-items: flex-end;
       }
   }
@@ -19,7 +19,7 @@
       .posts {
         flex:0 1 65%;
         justify-content: center;
-        margin-right: 1em;
+        margin-right:$mrgRight1m;
 
         article {
             flex:0 1 45%;
@@ -30,7 +30,7 @@
       flex:0 1 20%;
       flex-direction:column;
       justify-content: flex-start;
-      margin-right:1em;
+      margin-right:$mrgRight1m;
         section {
         flex:0 1 15%;
         }
@@ -43,7 +43,7 @@
         margin-bottom: 4em;
     }
     nav {
-        margin-left:2em;
+        margin-left:$mrgLeft2m;
     }
   }
 }

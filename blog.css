@@ -104,7 +104,7 @@ footer {
   footer {
     flex-direction: row;
     align-items: center;
-    font-size: .9em; }
+    font-size: 0.9em; }
     footer nav {
       flex: 15%;
       margin-left: 1em;
@@ -125,7 +125,7 @@ footer {
       align-self: center;
       margin-left: 6em; }
     .hero nav {
-      flex: 100;
+      flex: 100%;
       align-items: flex-end; }
 
   .container {
