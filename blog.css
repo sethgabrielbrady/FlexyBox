@@ -86,19 +86,18 @@ footer {
     display: flex;
     justify-content: flex-end; }
 
-  .posts {
+  .container .posts {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     flex-direction: row; }
-    .posts article {
+    .container .posts article {
       flex: 40%; }
-
-  .sidebar {
+  .container .sidebar {
     display: flex;
     flex-direction: row;
     justify-content: space-between; }
-    .sidebar section {
+    .container .sidebar section {
       flex: 30%; }
 
   footer {

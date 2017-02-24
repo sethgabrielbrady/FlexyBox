@@ -1,17 +1,16 @@
 
 
 
-
 .sidebar {
-    /* DO NOT CHANGE THESE */
-    background-color: $bgSidebar;
-    color: $bgColorTheme;
+  /* DO NOT CHANGE THESE */
+  background-color: $bgSidebar;
+  color: $bgColorTheme;
+    section {
+      margin:2em 1em;
+      /* DO NOT CHANGE THESE */
+      background-color: $bgColorPosts;
+      border: 1px solid $bgColorTheme;
+      height: $sidebarSectionHeight; /* this is just so we can see the articles since they have no content */
+    }
 
-      section {
-          margin:2em 1em;
-          /* DO NOT CHANGE THESE */
-          background-color: $bgColorPosts;
-          border: 1px solid $bgColorTheme;
-          height: $sidebarSectionHeight; /* this is just so we can see the articles since they have no content */
-      }
 }

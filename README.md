@@ -2,13 +2,18 @@ https://github.com/sethgabrielbrady/FlexyBox
 
 Seth Brady
 
+front end 2/23/17
+REFACTORING USING SASS
+
+This assignment requires using SASS to refactor the previous assignment using
+  partials and variables.
 
 
 front end 2/22/17
 RESPONSIVE DSIGN WITH FLEXY BLOG  
 
 This assignment requires incorporating responsive design using media queries,
-meta tags, and the "mobile first" strategy. 
+meta tags, and the "mobile first" strategy.
 
 
 

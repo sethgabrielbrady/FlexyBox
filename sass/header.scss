@@ -1,36 +1,33 @@
 
 
 .hero {
-    flex-wrap: wrap;
-    display:flex;
-    /* DO NOT CHANGE THESE */
-    background-color: $bgColorTheme;
-    position:relative;
-
-      h1 {
-          margin-bottom:0;
-          flex:$hdrH1flx;
-          /* DO NOT CHANGE THESE */
-          color: $headerTxtColor;
+  flex-wrap: wrap;
+  display:flex;
+  /* DO NOT CHANGE THESE */
+  background-color: $bgColorTheme;
+  position:relative;
+    h1 {
+        margin-bottom:0;
+        flex:$hdrH1flx;
+        /* DO NOT CHANGE THESE */
+        color: $headerTxtColor;
+    }
+    nav {
+        margin:0;
+        flex:$hdrNavflx;
+    }
+    ul {
+        display:flex;
+        list-style: none;
+        padding:0;
+    }
+    li {
+        margin:.5em 1em .5em 0;
+        box-sizing: border-box;
+        font-size:$hdrNavLiFntSz;
+    }
+      a {
+          text-decoration:none;
       }
-
-      nav {
-          margin:0;
-          flex:$hdrNavflx;
-      }
-
-      ul {
-          display:flex;
-          list-style: none;
-          padding:0;
-      }
-      li {
-          margin:.5em 1em .5em 0;
-          box-sizing: border-box;
-          font-size:$hdrNavLiFntSz;
-        }
-        a {
-            text-decoration:none;
-        }
-
+      
 }

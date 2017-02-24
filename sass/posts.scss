@@ -1,15 +1,14 @@
 
 
 .posts {
-    /* DO NOT CHANGE THESE */
-    color: $bgColorTheme;
-
-      article {
-          margin:2em 1em;
-          /* DO NOT CHANGE THESE */
-          background-color: $bgColorPosts;
-          border: 1px solid $bgColorTheme;
-          height:$articleHeight; /* this is just so we can see the articles since they have no content */
-      }
+  /* DO NOT CHANGE THESE */
+  color: $bgColorTheme;
+    article {
+      margin:2em 1em;
+      /* DO NOT CHANGE THESE */
+      background-color: $bgColorPosts;
+      border: 1px solid $bgColorTheme;
+      height:$articleHeight; /* this is just so we can see the articles since they have no content */
+    }
 
 }

@@ -1,3 +1,5 @@
+
+
 @media screen and (min-width: 70em) {
 
   .hero {
@@ -11,39 +13,36 @@
         flex:$mdiaLrgHdrNavFlx;
         align-items: flex-end;
       }
-  }
-
-  .container {
+   }
+   .container {
     justify-content: center;
     flex-direction:row;
-      .posts {
-        flex:0 1 $mdiaLrgCntPoFlx;
-        justify-content: center;
-        margin-right:1em;
-
+    .posts {
+      flex:0 1 $mdiaLrgCntPoFlx;
+      justify-content: center;
+      margin-right:1em;
         article {
-            flex:0 1 $mdiaLrgCntArtFlx;
-            justify-content: center;
+          flex:0 1 $mdiaLrgCntArtFlx;
+          justify-content: center;
         }
-      }
+    }
     .sidebar {
       flex:0 1 $mdiaLrgCntSdbrFlx;
       flex-direction:column;
       justify-content: flex-start;
       margin-right:1em;
         section {
-        flex:0 1 $mdiaLrgCntSecFlx;
+          flex:0 1 $mdiaLrgCntSecFlx;
         }
     }
-  }
-
-
-  footer {
-    p {
+   }
+   footer {
+      p {
         margin-bottom: 4em;
-    }
-    nav {
+      }
+      nav {
         margin-left:2em;
+      }
     }
-  }
+
 }
