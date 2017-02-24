@@ -4,19 +4,19 @@
     flex-wrap: wrap;
     display:flex;
     /* DO NOT CHANGE THESE */
-    background-color: $bgColortheme;
+    background-color: $bgColorTheme;
     position:relative;
 
       h1 {
           margin-bottom:0;
-          flex:70%;
+          flex:$hdrH1flx;
           /* DO NOT CHANGE THESE */
-          color: $headerColor;
+          color: $headerTxtColor;
       }
 
       nav {
           margin:0;
-          flex:100%;
+          flex:$hdrNavflx;
       }
 
       ul {

@@ -5,13 +5,13 @@
 .sidebar {
     /* DO NOT CHANGE THESE */
     background-color: $bgSidebar;
-    color: $bgColortheme;
+    color: $bgColorTheme;
 
       section {
           margin:$mrgTb2Lr1m;
           /* DO NOT CHANGE THESE */
           background-color: $bgColorPosts;
-          border: 1px solid $bgColortheme;
+          border: 1px solid $bgColorTheme;
           height: $sidebarSectionHeight; /* this is just so we can see the articles since they have no content */
       }
 }

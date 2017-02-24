@@ -2,13 +2,13 @@
 
 .posts {
     /* DO NOT CHANGE THESE */
-    color: $bgColortheme;
+    color: $bgColorTheme;
 
       article {
           margin:$mrgTb2Lr1m;
           /* DO NOT CHANGE THESE */
           background-color: $bgColorPosts;
-          border: 1px solid $bgColortheme;
+          border: 1px solid $bgColorTheme;
           height:$articleHeight; /* this is just so we can see the articles since they have no content */
       }
 

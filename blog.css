@@ -136,7 +136,7 @@ footer {
       justify-content: center;
       margin-right: 1em; }
       .container .posts article {
-        flex: 0 1 45%;
+        flex: 0 1 45;
         justify-content: center; }
     .container .sidebar {
       flex: 0 1 20%;

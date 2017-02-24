@@ -16,7 +16,7 @@
     justify-content: center;
     flex-direction: row;
       article {
-        flex:40%;
+        flex:$mdiaTabletHdrPoArFlx;
       }
     }
 
@@ -25,7 +25,7 @@
     flex-direction:row;
     justify-content: space-between;
       section {
-        flex:30%;
+        flex:$mdiaTabletHdrSdbrSecFlx;
       }
     }
 
@@ -34,12 +34,12 @@
     align-items:center;
     font-size:$mediaTabletFootFontSize;
       nav {
-        flex:15%;
+        flex:$mdiaTabletFtrNvFlx;
         margin-left:1em;
         text-align: left;
       }
       p{
-        flex:60%;
+        flex:$mdiaTabletFtrPaFlx;
         margin-right:2em;
         margin-left:$mrgLeft0;
         text-align:right;
