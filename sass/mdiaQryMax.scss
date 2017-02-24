@@ -19,7 +19,7 @@
       .posts {
         flex:0 1 $mdiaLrgCntPoFlx;
         justify-content: center;
-        margin-right:$mrgRight1m;
+        margin-right:1em;
 
         article {
             flex:0 1 $mdiaLrgCntArtFlx;
@@ -30,7 +30,7 @@
       flex:0 1 $mdiaLrgCntSdbrFlx;
       flex-direction:column;
       justify-content: flex-start;
-      margin-right:$mrgRight1m;
+      margin-right:1em;
         section {
         flex:0 1 $mdiaLrgCntSecFlx;
         }
@@ -43,7 +43,7 @@
         margin-bottom: 4em;
     }
     nav {
-        margin-left:$mrgLeft2m;
+        margin-left:2em;
     }
   }
 }

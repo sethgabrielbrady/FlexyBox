@@ -72,12 +72,12 @@ footer {
   background-color: #444444;
   color: #eeeeee;
   height: 9em; }
+  footer nav, footer p {
+    margin-left: 2em; }
   footer nav {
-    margin-top: 1em;
-    margin-left: 2em; }
+    margin-top: 1em; }
   footer p {
-    margin-bottom: 1em;
-    margin-left: 2em; }
+    margin-bottom: 1em; }
 
 @media screen and (min-width: 35em) {
   .hero h1 {
@@ -107,7 +107,7 @@ footer {
     font-size: 0.9em; }
     footer nav {
       flex: 15%;
-      margin-left: 1em;
+      margin-left: 2em;
       text-align: left; }
     footer p {
       flex: 60%;
@@ -115,7 +115,7 @@ footer {
       margin-left: 0;
       text-align: right; }
     footer ul {
-      margin-left: 2em;
+      margin-left: 2;
       padding-left: 0; } }
 @media screen and (min-width: 70em) {
   .hero {

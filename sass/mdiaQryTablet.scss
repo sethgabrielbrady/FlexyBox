@@ -2,7 +2,7 @@
 
     .hero{
       h1 {
-        margin-left:$mrgLeft2m;
+        margin-left:2em;
       }
       nav {
         display:flex;
@@ -35,18 +35,18 @@
     font-size:$mediaTabletFootFontSize;
       nav {
         flex:$mdiaTabletFtrNvFlx;
-        margin-left:1em;
+        margin-left: 2em;
         text-align: left;
       }
       p{
         flex:$mdiaTabletFtrPaFlx;
         margin-right:2em;
-        margin-left:$mrgLeft0;
+        margin-left:0;
         text-align:right;
       }
       ul {
-        margin-left:$mrgLeft2m;
-        padding-left:$mrgLeft0;
+        margin-left:2;
+        padding-left:0;
       }
     }
 
